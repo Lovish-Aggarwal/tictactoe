@@ -10,7 +10,7 @@ const History = ({ history, moveTo, currentMove }) => {
                             <button style={{fontWeight: move===currentMove?'bold':'normal'}} type="button" onClick={() => moveTo(move)}>
                                 {move === 0
                                     ? `Go to Game Start`
-                                    : `Go to move${move}`}
+                                    : `Go to move #${move}`}
                             </button>
                         </li>
                     );
