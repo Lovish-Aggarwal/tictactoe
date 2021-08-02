@@ -5,4 +5,4 @@ crated using nano-react-app instead of normal create react app command .
 
 App is delpayed using Surge.sh 
 
-# https://oxfun.surge.sh/
+# https://xofun.surge.sh/
