@@ -6,15 +6,15 @@ const StatusMessage = ({ winner, current }) => {
         <div className="status-message">
             {winner && (
                 <>
-                    ( Winner is
-                    <span
+                     Winner is 
+                    <span style={{marginLeft:'5px'}}
                         className={
                             winner === 'X' ? 'text-green' : 'text-orange'
                         }
                     >
-                        {winner}
+                         {winner}
                     </span>
-                    )
+                    
                 </>
             )}
             {!winner && !noMovesLeft && (
